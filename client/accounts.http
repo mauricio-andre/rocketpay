@@ -5,3 +5,21 @@ Content-Type: application/json
 {
   "value": 50
 }
+
+### Sub value to account
+POST http://localhost:4000/api/accounts/77fea554-cdf1-4310-8be3-855f0eda3f37/withdraw HTTP/1.1
+Content-Type: application/json
+
+{
+  "value": 50
+}
+
+### transaction value
+POST http://localhost:4000/api/accounts/transaction HTTP/1.1
+Content-Type: application/json
+
+{
+  "from": "77fea554-cdf1-4310-8be3-855f0eda3f37",
+  "to": "72d9d803-0fd1-4208-aa7f-57a4f55956e7",
+  "value": 1
+}
