@@ -5,7 +5,7 @@ defmodule RocketpayWeb.WelcomeController do
 
   def index(conn, %{"filename" => filename}) do
     filename
-    |> Rocketpay.Numbers.sum_from_files()
+    |> Numbers.sum_from_files()
     |> handle_response(conn)
   end
 
