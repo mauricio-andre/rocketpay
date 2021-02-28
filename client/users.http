@@ -4,8 +4,8 @@ Content-Type: application/json
 
 {
   "age": "24",
-  "email": "mauricio2@teste.com",
+  "email": "mauricio7@teste.com",
   "name": "Mauricio",
-  "nickname": "MauMau2",
-  "password": "1234565"
+  "nickname": "MauMau7",
+  "password": "123456"
 }
