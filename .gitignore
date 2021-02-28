@@ -1,10 +1,18 @@
-/_build
-/cover
-/deps
-/doc
-/.fetch
+/src/_build
+/src/cover
+/src/deps
+/src/doc
+/src/.fetch
 erl_crash.dump
 *.ez
 *.beam
-/config/*.secret.exs
+/src/config/*.secret.exs
 .elixir_ls/
+
+# Ignore package tarball (built via "mix hex.build").
+rocketpay-*.tar
+
+# Since we are building assets from assets/,
+# we ignore priv/static. You may want to comment
+# this depending on your deployment strategy.
+/src/priv/static/
