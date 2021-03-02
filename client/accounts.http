@@ -1,5 +1,6 @@
 ### Add value to account
 POST http://localhost:4000/api/accounts/77fea554-cdf1-4310-8be3-855f0eda3f37/deposit HTTP/1.1
+Authorization: Basic banana:nanica123
 Content-Type: application/json
 
 {
@@ -8,6 +9,7 @@ Content-Type: application/json
 
 ### Sub value to account
 POST http://localhost:4000/api/accounts/77fea554-cdf1-4310-8be3-855f0eda3f37/withdraw HTTP/1.1
+Authorization: Basic banana:nanica123
 Content-Type: application/json
 
 {
@@ -16,6 +18,7 @@ Content-Type: application/json
 
 ### transaction value
 POST http://localhost:4000/api/accounts/transaction HTTP/1.1
+Authorization: Basic banana:nanica123
 Content-Type: application/json
 
 {
