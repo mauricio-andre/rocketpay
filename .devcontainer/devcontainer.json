@@ -5,5 +5,9 @@
   ],
   "service": "app",
   "workspaceFolder": "/app",
-  "shutdownAction": "stopCompose"
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "jakebecker.elixir-ls",
+    "iampeterbanjo.elixirlinter"
+  ]
 }

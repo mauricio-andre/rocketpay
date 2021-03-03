@@ -3,6 +3,7 @@ version: "3.3"
 services:
   app:
     build: .
+    container_name: rocketpay_app
     volumes:
       - ./src:/app
     ports:

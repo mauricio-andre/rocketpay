@@ -7,7 +7,7 @@
 erl_crash.dump
 *.ez
 *.beam
-/src/config/*.secret.exs
+# /src/config/*.secret.exs
 .elixir_ls/
 
 # Ignore package tarball (built via "mix hex.build").
