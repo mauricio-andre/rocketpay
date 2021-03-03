@@ -46,7 +46,8 @@ Caso você opte por executar este projeto por meio do container docker, será ne
 
 ### Procedimentos em comum
 
-- Ao seguir os passos anteriores, a aplicação já esta acessível por meio do endereço [http://localhost:4000](http://localhost:4000)
+- Com seu servidor em execução execute no terminal o comando `mix ecto.migrate` para criar as tabelas no banco de dados
+- Ao seguir os passos anteriores, a aplicação já está acessível por meio do endereço [http://localhost:4000](http://localhost:4000)
 - Caso seja necessário baixar alguma dependência do projeto execute o comando `mix deps.get` no terminal que contem o elixir
 - Para executar os testes automatizados execute o comando `mix test` no terminal que contem o elixir. Também é possível usar `mix test --cover` ou `mix coveralls.html`
 - Caso precise executar algum comando no elixir como rotas da aplicação por meio do terminal, execute o comando `iex -S mix` para ter acesso a este recurso
