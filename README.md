@@ -10,7 +10,7 @@
   <a href="#sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#get-started">Get Started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#mais-sobre-docker">Mais sobre docker</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#vs-code">Vs Code</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#vs-code">VS Code</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rotas-da-api">Rotas da API</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença">Licença</a>
 </p>
@@ -62,6 +62,11 @@ Você pode querer usar o ambiente docker deste projeto para criar sua própria a
 - Por fim execute `docker-compose up` para iniciar seu novo projeto
 
 Nota: este projeto foi criado com o comando `docker-compose run --rm app mix phx.new . --app rocketpay --no-webpack --no-html`
+
+Os artigos a seguir podem ser úteis para a compreensão e criação de containers docker para trabalhar com elixir <br />
+[How to Run Your Phoenix Application with Docker](https://pspdfkit.com/blog/2018/how-to-run-your-phoenix-application-with-docker/) <br />
+[Elixir: Containerized development environment](https://ilhub.io/blog/2019/05/30/vscode-remote)<br />
+[Use Docker to create an Elixir/Phoenix development environment](https://medium.com/swlh/use-docker-to-create-an-elixir-phoenix-development-environment-e1a81def1d2e)
 
 ## VS Code
 
